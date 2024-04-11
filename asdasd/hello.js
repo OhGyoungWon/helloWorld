@@ -1,10 +1,10 @@
-var name = "hello world";
+var name = 20; 
 
 
-function changeName(name){
-    this.name = name;
+function changeName(name, name1){
+    name = name+name1;
     return name;
 }
 
-changeName("오경원")
+changeName(30, 10);
 console.log(name);
